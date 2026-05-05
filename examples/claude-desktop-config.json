@@ -1,0 +1,16 @@
+{
+  "_comment": "Merge the mcpServers block into your existing claude_desktop_config.json. Replace the absolute path and credentials before saving. Restart Claude Desktop afterwards.",
+  "mcpServers": {
+    "business-toolkit": {
+      "command": "node",
+      "args": ["/absolute/path/to/mcp-business-toolkit/build/index.js"],
+      "env": {
+        "SUPABASE_URL": "https://your-project.supabase.co",
+        "SUPABASE_SERVICE_KEY": "replace-with-real-service-role-key",
+        "TELEGRAM_BOT_TOKEN": "",
+        "TELEGRAM_CHAT_ID": "",
+        "SITE_URL": "https://your-domain.example.com"
+      }
+    }
+  }
+}
